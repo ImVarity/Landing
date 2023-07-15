@@ -4,54 +4,93 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  
+    
   
   }
   
 .header {
     background: pink;
-    color: white;
+    color: white;   
+    height: 5vh;
     display: flex;
-    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 8%;
+    position: sticky;
+    top: 0;
+    text-shadow: -2px -2px lightblue;
+    background: transparent;
+
+}
+
+.sections {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    scroll-snap-align: start;
 }
 
 
-.section-one {
+.one,
+.two,
+.three,
+.four {
+    color: white;
+    text-shadow: -3px 3px lightcoral;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.one {
     background: rgb(254, 176, 189);
-    color: white;
-    display: flex;
-    flex: 1;
+
+    
 }
 
-.section-two {
+.two {
     background: rgb(247, 161, 175);
-    color: white;
-    display: flex;
-    flex: 1;
+
+
 }
 
-.section-three {
+.three {
     background: rgb(255, 145, 163);
-    color: white;
-    display: flex;
-    flex: 1;
+
+
 }
 
-.section-four {
+.four {
     background: rgb(255, 105, 130);
-    color: white;
-    display: flex;
-    flex: 1;
+
+
 }
 
 .footer {
     background: rgb(255, 79, 108);
     color: white;
+    height: 10vh;
     display: flex;
-    flex: 1;
+    justify-content: center;
+    
+
 }
 
 a {
-
-
+    text-decoration: none;
+    color: white;
 }
+
+#secret {
+    margin-top: auto;
+}
+
