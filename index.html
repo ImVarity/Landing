@@ -10,16 +10,30 @@
 
   <body>
 
-    <audio controls autoplay>
-        <source autoplay="" src="./music/howls.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-      </audio>
+
+
+
 
     
     <div class="sections">
+        
 
 
         <div class="header">
+
+
+        <iframe src="./music/howls.mp3" allow="autoplay" id="audio" hidden ></iframe>
+
+            <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
+            <audio id="player" autoplay controls>
+                <source src="./music/howls.mp3" type="audio/mp3">
+            </audio>
+
+
+
+
+
+
             <div class="left-links">
                 <a href="#">左</a>
                 <a href="#">左</a>
