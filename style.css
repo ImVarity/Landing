@@ -65,11 +65,17 @@ body {
 
 
 .box {
-    background: lightblue;
-    padding: 40px 40px;
+    background: white;
+
     box-shadow: -5px 5px 50px white;
 
 }
+
+.card .gif {
+    width: 200px;
+    height: auto;
+}
+
 
 .one, .two, .three, .four {
     color: white;
@@ -79,8 +85,12 @@ body {
     justify-content: center;
 }
 
+
+
+
 .one {
     background: rgb(254, 176, 189);
+    display: flex;
 }
 
 .two {
